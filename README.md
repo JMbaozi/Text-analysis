@@ -16,17 +16,17 @@
 
 文章大部分内容来源于：
 
-## 1.1 图书
+### 1.1 图书
 
 《文本分析与文本挖掘》——姜维  [https://book.douban.com/subject/30433554/](https://book.douban.com/subject/30433554/）) 
 
 《在线文本数据挖掘：算法原理与编程实现》——刘通 [http://product.dangdang.com/27916151.html](http://product.dangdang.com/27916151.html）) 
 
-## 1.2 文章
+### 1.2 文章
 
  老师提供的相关文章
 
-## 1.3 网络
+### 1.3 网络
 
  网络搜索相关知识及文章
 
