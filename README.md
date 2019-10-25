@@ -4,17 +4,13 @@
 
 # 1.联系方式
 
-##### 1.QQ:2316705476
+##### 1.QQ: 2316705476
 
-##### 2.E-mail:baozicrd@foxmail.com
+##### 2.E-mail: baozicrd@foxmail.com
 
-##### 3.WECHAT:JMbaozi
+##### 3.WECHAT: JMbaozi
 
-##### 4.WEIBO:
-
-[追风若航]: https://weibo.com/3958305706/profile?rightmod=1&amp;wvr=6&amp;mod=personinfo
-
-
+##### 4.WEIBO: 追风若航
 
 # 2.内容来源
 
@@ -37,4 +33,3 @@
 # 3.备注
 
 #####  1.文本分析术语test.docx ：用于下载文本分析术语的文档，提供原文件，以便添加和修改。 
-
