@@ -18,9 +18,9 @@
 
 ### 1.1 图书
 
-《文本分析与文本挖掘》——姜维  [https://book.douban.com/subject/30433554/](https://book.douban.com/subject/30433554/）) 
+[《文本分析与文本挖掘》——姜维](https://book.douban.com/subject/30433554/)
 
-《在线文本数据挖掘：算法原理与编程实现》——刘通 [http://product.dangdang.com/27916151.html](http://product.dangdang.com/27916151.html）) 
+[《在线文本数据挖掘：算法原理与编程实现》——刘通 ](http://product.dangdang.com/27916151.html) 
 
 ### 1.2 文章
 
