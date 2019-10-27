@@ -41,3 +41,4 @@
 
 #####  1.[文本分析术语.docx](https://github.com/JMbaozi/Text-analysis/blob/master/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90%E6%9C%AF%E8%AF%AD.docx) ：用于下载文本分析术语的文档，提供原文件，以便添加和修改。
 ##### 2.[文本分析.docx](https://github.com/JMbaozi/Text-analysis/blob/master/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90.docx) ：用于下载文本分析（总文章）的文档，提供原文件，以便添加和修改。|:建议下载该文档进行修改，网页版排版有误。
+3.文本分析的主要技术（文件夹）：用于下载对应的文档。|:建议下载该文档进行修改，网页版排版有误。
