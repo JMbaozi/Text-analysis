@@ -4,13 +4,13 @@
 
 # 1.联系方式
 
-##### 1.QQ: 2316705476
+* QQ: 2316705476
 
-##### 2.E-mail: baozicrd@foxmail.com
+* E-mail: baozicrd@foxmail.com
 
-##### 3.WECHAT: JMbaozi
+* WECHAT: JMbaozi
 
-##### 4.WEIBO: @追风若航
+* WEIBO: @追风若航
 
 # 2.内容来源
 
@@ -35,15 +35,8 @@
 
 # 3.备注
 
-#####  1.[文本分析术语.docx](https://github.com/JMbaozi/Text-analysis/blob/master/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90%E6%9C%AF%E8%AF%AD.docx) ：用于下载文本分析术语的文档，提供原文件，以便添加和修改。 
+* [文本分析术语.docx](https://github.com/JMbaozi/Text-analysis/blob/master/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90%E6%9C%AF%E8%AF%AD.docx) ：用于下载文本分析术语的文档，提供原文件，以便添加和修改。 
 
-##### 2.[文本分析.docx](https://github.com/JMbaozi/Text-analysis/blob/master/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90.docx) ：用于下载文本分析（总文章）的文档，提供原文件，以便添加和修改。|:建议下载该文档进行修改，网页版排版有误。
+* [文本分析.docx](https://github.com/JMbaozi/Text-analysis/blob/master/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90.docx) ：用于下载文本分析（总文章）的文档，提供原文件，以便添加和修改。|:建议下载该文档进行修改，网页版排版有误。
 
-##### 3.[文本分析的主要技术（文件夹）](https://github.com/JMbaozi/Text-analysis/tree/master/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90%E7%9A%84%E4%B8%BB%E8%A6%81%E6%8A%80%E6%9C%AF)：用于下载对应的文档。|:建议下载该文档进行修改，网页版排版有误。
-
-
-# 以《红楼梦》为例的简单应用
-=========
-
-
-
+* [文本分析的主要技术（文件夹）](https://github.com/JMbaozi/Text-analysis/tree/master/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90%E7%9A%84%E4%B8%BB%E8%A6%81%E6%8A%80%E6%9C%AF)：用于下载对应的文档。|:建议下载该文档进行修改，网页版排版有误。
