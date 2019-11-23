@@ -47,6 +47,12 @@
   
    > 建议下载该文档进行修改，网页版排版有误。 
 
+* 语料库
+  
+    * [现代汉语语料库汉字频率表](https://github.com/JMbaozi/Text-analysis/blob/master/%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%E8%AF%AD%E6%96%99%E5%BA%93%E6%B1%89%E5%AD%97%E9%A2%91%E7%8E%87%E8%A1%A8.xls)
+
+    * [古代汉语语料库汉字频率表](https://github.com/JMbaozi/Text-analysis/blob/master/%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%E8%AF%AD%E6%96%99%E5%BA%93%E6%B1%89%E5%AD%97%E9%A2%91%E7%8E%87%E8%A1%A8.xls) 
+
 -------
 ## 以《红楼梦》为例的简单应用
 
