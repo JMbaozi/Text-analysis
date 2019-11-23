@@ -1,4 +1,4 @@
-**本项目用于文本分析的基础学习，并完成基本知识记录。**
+**本项目用于文本分析的基础学习，为后续项目的辅助项目。**
 **如果你对此感兴趣，可以Star，一起来学习并维护。也可以通过以下方式联系我。**
 
 
@@ -39,15 +39,19 @@
 
 * [文本分析术语.docx](https://github.com/JMbaozi/Text-analysis/blob/master/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90%E6%9C%AF%E8%AF%AD.docx) ：用于下载文本分析术语的文档，提供原文件，以便添加和修改。 
 
-* [文本分析.docx](https://github.com/JMbaozi/Text-analysis/blob/master/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90.docx) ：用于下载文本分析（总文章）的文档，提供原文件，以便添加和修改。|:建议下载该文档进行修改，网页版排版有误。
+* [文本分析.docx](https://github.com/JMbaozi/Text-analysis/blob/master/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90.docx) ：用于下载文本分析（总文章）的文档，提供原文件，以便添加和修改。
+  
+  > 建议下载该文档进行修改，网页版排版有误。 
 
-* [文本分析的主要技术（文件夹）](https://github.com/JMbaozi/Text-analysis/tree/master/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90%E7%9A%84%E4%B8%BB%E8%A6%81%E6%8A%80%E6%9C%AF)：用于下载对应的文档。|:建议下载该文档进行修改，网页版排版有误。
+* [文本分析的主要技术（文件夹）](https://github.com/JMbaozi/Text-analysis/tree/master/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90%E7%9A%84%E4%B8%BB%E8%A6%81%E6%8A%80%E6%9C%AF)：用于下载对应的文档。
+  
+   > 建议下载该文档进行修改，网页版排版有误。 
 
 -------
 ## 以《红楼梦》为例的简单应用
 
 ### 数据来源
-* 由红楼梦研究所校注、人民文学出版社出版的[《红楼梦》以庚辰（1760）本](https://github.com/JMbaozi/Text-analysis/blob/master/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E5%BA%9A%E8%BE%B0%E6%9C%AC%EF%BC%88%E4%BA%BA%E6%B0%91%E6%96%87%E5%AD%A6%E5%87%BA%E7%89%88%E7%A4%BE%EF%BC%89.docx)《脂砚斋重评石头记》为底本，以甲戌（1754）本、已卯（1759）本、蒙古王府本、戚蓼生序本、舒元炜序本、郑振铎藏本、红楼梦稿本、列宁格勒藏本（俄藏本）、程甲本、程乙本等众多版本为参校本。
+* 由红楼梦研究所校注、人民文学出版社出版的《红楼梦》以庚辰（1760）本《脂砚斋重评石头记》为底本，以甲戌（1754）本、已卯（1759）本、蒙古王府本、戚蓼生序本、舒元炜序本、郑振铎藏本、红楼梦稿本、列宁格勒藏本（俄藏本）、程甲本、程乙本等众多版本为参校本。[下载链接](https://github.com/JMbaozi/Text-analysis/blob/master/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E5%BA%9A%E8%BE%B0%E6%9C%AC%EF%BC%88%E4%BA%BA%E6%B0%91%E6%96%87%E5%AD%A6%E5%87%BA%E7%89%88%E7%A4%BE%EF%BC%89.docx)
 
 ### 分析工具
 * Python3.6.6
