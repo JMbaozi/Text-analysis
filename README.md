@@ -52,6 +52,7 @@
 
 ### 数据来源
 * 由红楼梦研究所校注、人民文学出版社出版的《红楼梦》以庚辰（1760）本《脂砚斋重评石头记》为底本，以甲戌（1754）本、已卯（1759）本、蒙古王府本、戚蓼生序本、舒元炜序本、郑振铎藏本、红楼梦稿本、列宁格勒藏本（俄藏本）、程甲本、程乙本等众多版本为参校本。[下载链接](https://github.com/JMbaozi/Text-analysis/blob/master/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E5%BA%9A%E8%BE%B0%E6%9C%AC%EF%BC%88%E4%BA%BA%E6%B0%91%E6%96%87%E5%AD%A6%E5%87%BA%E7%89%88%E7%A4%BE%EF%BC%89.docx)
+* 网络下载的《红楼梦.txt》[下载链接](https://github.com/JMbaozi/Text-analysis/blob/master/hongloumeng.txt)
 
 ### 分析工具
 * Python3.6.6
@@ -77,6 +78,7 @@ print("Default Mode: " + "/ ".join(seg_list))  # 精确模式
   * “原来女娲氏炼石补天之时，于大荒山无稽崖炼成高经十二丈、方经二十四丈顽石三万六千五百零一块。”经过分词后变为“原来/女娲/氏/炼石补天/之/时/，/于/大/荒山/无稽/崖/炼成/高经/十二/丈/、/方经/二十四丈/顽石/三万/六千五百/零/一块/。”。
 
 #### 2.词性标注
+* [词性列表](https://github.com/JMbaozi/Text-analysis/blob/master/%E8%AF%8D%E6%80%A7%E5%88%97%E8%A1%A8.txt)
 * 代码
 ```python
 import jieba.posseg as pseg
@@ -91,6 +93,57 @@ for word, flag in words:
 那 r 贾母nr 见v他r两个m都d生v了ul气n ，x只说c趁p今儿t那边r看v戏n，x他r两个m见v了ul也d就d完v了ul，x不想v又d都d不d去v 。x
   * “一时宝钗、凤姐儿去了，黛玉笑向宝玉道："你也试着比我利害的人了。谁都像我心拙口笨的，由着人说呢！"宝玉正因宝钗多了心，自己没趣，又见黛玉来问着他，越发没好气起来。待要说两句，又恐黛玉多心，说不得忍着气，无精打彩一直出来了。”：
 一m时宝钗nr、x凤姐儿nr去v了ul，x黛玉笑nr向宝玉nr道 q：x"x你r也d试v着uz比p我r利害v的uj人n了ul。x谁r都d像v我心n拙ag口q笨a的uj，x由着c人n说v呢y！x"x宝玉nr正d因p宝钗nr多m了ul心s，x自己r没趣v，x又d见v黛玉nr来v问v着uz他r，x越发d没好气l起来v。x待v要说c两句m，x又d恐d黛玉nr多心n，x说不得l忍v着uz气n，x无精打彩i一直d出来v了ul。x
+
+#### 3.基于TF-IDF算法的关键词提取
+* 语句关键词提取
+  * 代码
+    ```python
+    #jieba.analyse.extract_tags(string,topK=20,withWeight=True,allowPOS=(" "))
+    #string：待处理语句
+    #topK：返回TF、IDF权重最大的关键字的个数，默认20
+    #withWeight：是否返回权重值，默认false
+    #allowPOS：是否仅返回指定类型，默认为空
+    import jieba.analyse
+    # 字符串前面加u表示使用unicode编码
+    content = u'_text'
+    keywords = jieba.analyse.extract_tags(content, topK=20,withWeight=True, allowPOS=())
+    # 访问提取结果
+    for item in keywords:
+        print(item[0], item[1])
+    ```
+  * 实例
+    > “原来贾珍近因居丧,每不得游顽旷荡,又不得观优闻乐作遣.无聊之极,便生了个破闷之法. 日间以习射为由,请了各世家弟兄及诸富贵亲友来较射.因说:"白白的只管乱射,终无裨益,不但不能长进,而且坏了式样,必须立个罚约,赌个利物,大家才有勉力之心."因此在天香楼下箭道内立了鹄子,皆约定每日早饭后来射鹄子.贾珍不肯出名, 便命贾蓉作局家.这些来的皆系世袭公子,人人家道丰富,且都在少年,正是斗鸡走狗,问柳评花的一干游荡纨裤.因此大家议定,每日轮流作晚饭之主,----每日来射, 不便独扰贾蓉一人之意.于是天天宰猪割羊,屠鹅戮鸭,好似临潼斗宝一般,都要卖弄自己家的好厨役好烹炮.不到半月工夫,贾赦贾政听见这般,不知就里,反说这才是正理, 文既误矣,武事当亦该习,况在武荫之属.两处遂也命贾环,贾琮,宝玉,贾兰四人于饭后过来,跟着贾珍习射一回,方许回去.”
+
+    > 关键词：由于文字较少，所以按权值占比选前五个
+    贾珍 0.2248850718385
+    每日 0.15875041022175002
+    问柳评花 0.11583898043333334
+    临潼斗宝 0.11583898043333334
+    纨裤 0.10428652742416666
+
+* 文本关键词提取
+  * 代码
+    ```python
+    from jieba.analyse import *
+    with open('_text.txt',encoding = 'utf-8') as f:
+        data = f.read()
+    for keyword, weight in extract_tags(data, topK=10, withWeight=True):
+        print('%s %s' % (keyword, weight))
+    ```
+  * 实例
+    > 以 hongloumeng.txt为例
+    
+    > 关键词：取权值占比前十个
+    宝玉 0.11174015386450631
+    贾母 0.04096279485052852
+    凤姐 0.03679341393983838
+    王夫人 0.03238483108809296
+    老太太 0.029228577284745143
+    奶奶 0.025319232252404632
+    那里 0.024846723669342888
+    什么 0.024490410824605114
+    贾琏 0.02434048230267443
+    太太 0.024266427970154856
 
 #### other function
 > Waiting to be added
