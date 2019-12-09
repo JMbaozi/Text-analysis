@@ -93,6 +93,19 @@ print("Default Mode: " + "/ ".join(seg_list))  # 精确模式
   jieba.add_word(word,freq = None,tag = None)
   ```
   * 实例
+  
+  ```python
+    import jieba
+    
+    data = "原来女娲氏炼石补天之时，于大荒山无稽崖炼成高经十二丈、方经二十四丈顽石三万六千五百零一块。"
+    
+    jieba.load_userdict('hlmdicttest.txt')
+    cut_result = jieba.cut(data)
+    print('=='*20)
+    print('/'.join(cut_result))
+  ```
+  
+  
   > 女娲氏炼石补天之时，于大荒山无稽崖炼成高经十二丈、方经二十四丈顽石三万六千五百零一块。”经过分词后变为“原来/女娲氏/炼石补天/之/时/，/于/大荒山/无稽崖/炼成/高经十二丈/、/方经二十四丈/顽石/三万/六千五百/零/一块/”
   
 
