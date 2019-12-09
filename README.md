@@ -192,6 +192,7 @@ for keyword, weight in extract_tags(data, topK=21, withWeight=True):
         print('%s %s' % (keyword,weight))
   ```
   > 结果：
+  
   > 宝玉 0.11174015386450631
 贾母 0.04096279485052852
 凤姐 0.03679341393983838
