@@ -179,20 +179,19 @@ for word, flag in words:
   * 自定部分停用词
   ```python
   from jieba.analyse import *
-  import jieba
-  stopwords = ['奶奶','那里','什么','姑娘','说道','众人','如今','一面','你们','袭人','只见']
-  with open('hongloumeng.txt',encoding = 'utf-8') as f:
-  	data = f.read()
-  for keyword, weight in extract_tags(data, topK=21, withWeight=True):
-  	tag = 1
-  	for i in range(11):
-      	if keyword == stopwords[i]:
-          	tag = 0
-  	if tag == 1: 
-      	print('%s %s' % (keyword,weight))
+import jieba
+stopwords = ['奶奶','那里','什么','姑娘','说道','众人','如今','一面','你们','袭人','只见']
+with open('hongloumeng.txt',encoding = 'utf-8') as f:
+    data = f.read()
+for keyword, weight in extract_tags(data, topK=21, withWeight=True):
+    tag = 1
+    for i in range(11):
+        if keyword == stopwords[i]:
+            tag = 0
+    if tag == 1: 
+        print('%s %s' % (keyword,weight))
   ```
   > 结果：
-  
   > 宝玉 0.11174015386450631
 贾母 0.04096279485052852
 凤姐 0.03679341393983838
