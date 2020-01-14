@@ -19,7 +19,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 ```
-####networkx使用教程
+#### networkx使用教程
 
 * [networkx整理](https://www.cnblogs.com/minglex/p/9205160.html)
 * [官方文档](https://networkx.github.io/documentation/stable/tutorial.html)
