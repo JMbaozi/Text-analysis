@@ -11,6 +11,7 @@
   * 打开命令提示符
   * 输入(依次输入下载)
   > pip install networkx
+  
   > pip install matplotlib
 
 * 引用模块
