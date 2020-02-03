@@ -1,3 +1,8 @@
+"""
+*.scala
+Do't run it in this platform.
+Author:Enzhi Li   https://github.com/PrimerLi/red_chamber_dream_network
+"""
 package dream.chamber.red
 
 import scala.io.Source
