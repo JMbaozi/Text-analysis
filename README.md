@@ -176,7 +176,7 @@ for word, flag in words:
     什么 0.024490410824605114
     贾琏 0.02434048230267443
     太太 0.024266427970154856
-  * 自定部分停用词
+  * 自定义部分停用词
   ```python
   from jieba.analyse import *
   import jieba
