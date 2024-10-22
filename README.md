@@ -10,7 +10,7 @@
 
 * WECHAT: JMbaozi
 
-* WEIBO: @追风若航
+* WEIBO: [@乖乖龙地冬丶](https://weibo.com/u/3958305706)
 
 ### 2.内容来源
 
